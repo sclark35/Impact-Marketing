@@ -1,0 +1,152 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/path_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 900px;
+	padding: 2%;
+    margin: 50px auto;
+	text-align: center;
+	/*border:double 5px white;*/
+	clear: both;
+}
+
+   
+#logo {
+    margin-bottom: 10px;
+	border: 3px;
+	text-align: center;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'futura-pt' , sans-serif;
+	font-size: 4em;
+    margin: 0px auto 10px auto;
+	padding: 15px;
+	background-color:rgb(123, 146, 92); 
+    color: #fff;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'futura-pt' , sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: rgb(123, 146, 92);
+    padding: 15px;
+	background-color:rgb(255, 255, 255);
+    margin: 0px auto 10px auto;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+	font-family: 'futura-pt' , sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+	background-color:#fff;
+	padding: 15px;
+    color: rgb(123, 146, 92);
+}
+nav{
+	font-family: 'futura-pt' , sans-serif;
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	/*border: dashed rgb(39, 0, 137);*/
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+	background-color: rgba(39, 0, 137, 0.411);
+	float: right;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: black;
+	background: rgb(162, 212, 94);
+}
+
+    
+
